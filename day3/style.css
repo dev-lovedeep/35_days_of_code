@@ -1,0 +1,27 @@
+* {
+
+    scroll-behavior: smooth;
+}
+
+
+
+img.card__hero {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+@media (min-width:648px) {
+    .card {
+        width: 30%
+    }
+
+    .card:hover {
+        position: relative;
+        top: -10px;
+        transition: all;
+    }
+}
